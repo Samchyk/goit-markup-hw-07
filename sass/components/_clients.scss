@@ -1,0 +1,55 @@
+  .clients-link {
+      padding: 16px 32px;
+      border: 1px solid #afb1b8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      display: block;
+      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:focus,
+    &:hover {
+      border-color: #2196f3;
+    }
+    &:focus .clients-icon,
+    &:hover .clients-icon {
+      fill: #2196f3;
+    }
+    }
+    
+    .clients-icon {
+      fill: #afb1b8;
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    
+    
+    
+    
+    .clients-heading {
+      font-family: Roboto;
+      font-style: 700;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+      margin-top: 94px;
+    }
+    
+    .clients-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .clients-item {
+      margin-right: 30px;
+      margin-top: 50px;
+      margin-bottom: 94px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    
+   
+    
