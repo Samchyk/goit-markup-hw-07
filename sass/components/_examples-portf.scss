@@ -1,4 +1,4 @@
-  .examples {
+  .examples__title {
       position: absolute;
       white-space: nowrap;
       width: 1px;
@@ -10,13 +10,10 @@
       margin: -1px;
     }
     
-    .button {
+    .examples__button {
       font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.62;
+      @include font (500, 16px, 1.62);
       text-align: center;
-      letter-spacing: 0.03em;
       color: #212121;
       background-color: #f5f4fa;
       border-radius: 4px;
@@ -28,7 +25,7 @@
       }
     }
 
-    .button {
+    .examples__button {
       margin-right: 8px;
       padding-top: 6px;
       padding-bottom: 6px;
@@ -44,7 +41,7 @@
     
   
     
-    .div-btn {
+    .examples__btn {
       padding-bottom: 56px;
       padding-top: 100px;
       display: flex;

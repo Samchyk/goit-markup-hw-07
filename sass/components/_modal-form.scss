@@ -1,10 +1,7 @@
   .modal-title {
       font-style: normal;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 23px;
+      @include font (700, 20px, 1.15, 0.03em);
       text-align: center;
-      letter-spacing: 0.03em;
       justify-content: center;
       display: flex;
       align-items: center;
@@ -46,18 +43,12 @@
     }
     
     .modal-area::placeholder {
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 1.16;
-      letter-spacing: 0.01em;
+      @include font (400, 12px, 1.16, 0.01em);
       color: rgba(117, 117, 117, 0.5);
     }
     
     .modal-label {
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 1.16;
-      letter-spacing: 0.01em;
+      @include font (400, 12px, 1.16, 0.01em);
       color: #757575;
     }
     
@@ -85,20 +76,14 @@
     
     .check-text {
       font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.71;
-      letter-spacing: 0.03em;
+      @include font (400, 14px, 1.71, 0.03em);
       color: #757575;
       display: flex;
     }
     
     .check-link {
       font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.71;
-      letter-spacing: 0.03em;
+      @include font (400, 14px, 1.71, 0.03em);
       color: #2196f3;
       margin-left: 5px;
     }

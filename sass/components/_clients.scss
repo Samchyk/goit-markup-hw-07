@@ -1,4 +1,4 @@
-  .clients-link {
+  .clients__link {
       padding: 16px 32px;
       border: 1px solid #afb1b8;
       box-sizing: border-box;
@@ -9,40 +9,34 @@
     &:hover {
       border-color: #2196f3;
     }
-    &:focus .clients-icon,
-    &:hover .clients-icon {
+    &:focus .clients__icon,
+    &:hover .clients__icon {
       fill: #2196f3;
     }
     }
     
-    .clients-icon {
+    .clients__icon {
       fill: #afb1b8;
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    
-    
-    
-    
-    .clients-heading {
+
+    .clients__heading {
       font-family: Roboto;
-      font-style: 700;
       font-weight: bold;
-      font-size: 36px;
-      line-height: 1.17;
+      @include font ($fz:36px);
       text-align: center;
-      letter-spacing: 0.03em;
       color: #212121;
       margin-top: 94px;
     }
     
-    .clients-list {
+    .clients__list {
       display: flex;
       justify-content: center;
       align-items: center;
     }
     
-    .clients-item {
+    .clients__item {
       margin-right: 30px;
       margin-top: 50px;
       margin-bottom: 94px;

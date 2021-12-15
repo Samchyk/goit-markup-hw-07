@@ -1,12 +1,9 @@
-.subject-wrapp {
+.subject__wrapp {
     position: relative;
   }
   
-  .subject-work-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+  .subject__work-text {
+    @include font (700, 14px, 1.14, 0.03em);
     text-align: center;
     position: absolute;
     bottom: 0%;
@@ -17,21 +14,18 @@
     text-transform: uppercase;
   }
   
-  .work {
+  .subject{
     padding-bottom: 94px;
     padding-top: 94;
   }
   
-  .subject {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+  .subject__title {
+    @include font (700, 36px, 1.17, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
   }
-  .subject-work {
+  .subject__works {
     display: flex;
     justify-content: space-between;
   }

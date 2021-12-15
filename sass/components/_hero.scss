@@ -11,24 +11,18 @@
     flex-direction: column;
     align-items: center;
   }
-  .hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+  .hero__title {
+    @include font (900, 44px, 1.36, 0.06em);
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
   }
  
-  .hero-btn {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+  .hero__btn {
+    @include font (700, 16px, 1.87, 0.06em);
     padding: 10px 32px;
     border: none;
     margin-top: 30px;
-    letter-spacing: 0.06em;
     color: #ffffff;
     background-color: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
