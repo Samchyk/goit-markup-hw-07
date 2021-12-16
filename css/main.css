@@ -444,7 +444,7 @@ body {
 }
 
 .comand-social__icon {
-  fill: #afb1b8;
+  fill: #AFB1B8;
 }
 
 .comand-social__item {
@@ -539,7 +539,7 @@ body {
 
 .clients__link {
   padding: 16px 32px;
-  border: 1px solid #afb1b8;
+  border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
   display: block;
@@ -556,7 +556,7 @@ body {
 }
 
 .clients__icon {
-  fill: #afb1b8;
+  fill: #AFB1B8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -845,6 +845,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   display: flex;
+  align-items: center;
 }
 
 .check-link {
