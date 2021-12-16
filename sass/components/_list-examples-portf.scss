@@ -43,7 +43,7 @@
       
       .list-item__title{
         @include font (700, 18px, 2, 0.06em);
-        color: #212121;
+        color: $color-top-text;
         margin: 0px 24px 4px 24px;
         padding-top: 20px;
         padding-bottom: 4px;
@@ -51,7 +51,7 @@
       
       .list-item__text {
         @include font (400, 16px, 1.87, 0.03em);
-        color: #757575;
+        color: $color-text;
         margin: 0px 24px 20px;
       }
       
